@@ -1,0 +1,13 @@
+public class C{
+public static void main (String [] args) {
+method1();
+method2();
+}
+public void method1() {
+----
+}
+public static void method2() {
+method1();
+}
+System.out.println(“Welcome to world of Java”);
+}
